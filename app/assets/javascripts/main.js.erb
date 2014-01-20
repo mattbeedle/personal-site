@@ -95,13 +95,13 @@ $('.chart').waypoint(function() {
     $.vegas('slideshow', {
         backgrounds:[
 
-        { src:'/assets/slider/01.jpg', fade:1000 },
-        { src:'/assets/slider/02.jpg', fade:1000 },
-        { src:'/assets/slider/03.jpg', fade:1000 },
-        { src:'/assets/slider/04.jpg', fade:1000 }
+          { src:'<%= asset_path 'slider/01.jpg' %>', fade:1000 },
+          { src:'<%= asset_path 'slider/02.jpg' %>', fade:1000 },
+          { src:'<%= asset_path 'slider/03.jpg' %>', fade:1000 },
+          { src:'<%= asset_path 'slider/04.jpg' %>', fade:1000 }
         ]
       })('overlay', {
-        src:'/assets/overlays/16.png'
+        src:'<%= asset_path 'overlays/16.png' %>'
       });
       $( "#vegas-next" ).click(function() {
         $.vegas('next');
