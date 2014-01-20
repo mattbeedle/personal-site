@@ -34,3 +34,7 @@ end
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'simple_form'
+
+group :production do
+  gem 'rails_12factor'
+end
