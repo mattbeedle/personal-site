@@ -66,10 +66,10 @@ $(".navbar").sticky({topSpacing: 0});
 /* Scroll spy and scroll filter */
     $('#main-menu').onePageNav({
         currentClass: "active",
-        changeHash: false,
+        changeHash: true,
         scrollThreshold: 0.5,
         scrollSpeed: 750,
-        filter: "",
+        filter: ':not(.external)',
         easing: "swing"
      });
 
@@ -95,7 +95,6 @@ $('.chart').waypoint(function() {
     $.vegas('slideshow', {
         backgrounds:[
 
-          { src:'<%= asset_path 'slider/01.jpg' %>', fade:1000 },
           { src:'<%= asset_path 'slider/02.jpg' %>', fade:1000 },
           { src:'<%= asset_path 'slider/03.jpg' %>', fade:1000 },
           { src:'<%= asset_path 'slider/04.jpg' %>', fade:1000 }
