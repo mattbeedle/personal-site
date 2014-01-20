@@ -32,6 +32,7 @@ group :doc do
 end
 
 gem 'bootstrap-sass'
+gem 'decent_exposure'
 gem 'font-awesome-rails'
 gem 'simple_form'
 
