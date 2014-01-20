@@ -1,0 +1,22 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  pool: 25
+  username: postgres
+  host: 127.0.0.1
+
+development:
+  <<: *defaults
+  database: portfolio_development
+
+test:
+  <<: *defaults
+  database: portfolio_test
+
+staging:
+  <<: *defaults
+  database: portfolio_staging
+
+production:
+  <<: *defaults
+  database: portfolio_production
