@@ -131,22 +131,31 @@ background-color: transparent;
 
 }
 
-
 #page-skills{
     padding: 75px 0;
     background:#f7f7f7;
     text-align: center;
 }
 
-#page-education{
-    padding: 75px 0;
-    background:#fff;
+#page-open-source {
+  padding: 75px 0;
+  background: #fff;
 }
 
+#page-publications{
+    padding: 75px 0;
+    background:#f7f7f7;
+}
+
+#page-education{
+    padding: 75px 0;
+    background:#f7f7f7;
+    text-align: center;
+}
 
 #page-experience{
-     padding: 75px 0;
-    background:#f7f7f7;
+    padding: 75px 0;
+    background:#fff;
 }
 
 #page-portfolio{
@@ -550,6 +559,10 @@ label.valid{
 
 .btn-google:hover{
     color:#D3492C;
+}
+
+.btn-xing:hover {
+  color: #006567;
 }
 
 
