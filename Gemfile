@@ -34,7 +34,12 @@ end
 gem 'bootstrap-sass'
 gem 'decent_exposure'
 gem 'font-awesome-rails'
+gem 'rack-reverse-proxy', require: 'rack/reverse_proxy'
 gem 'simple_form'
+
+group :development do
+  gem 'dotenv-rails'
+end
 
 group :production do
   gem 'newrelic_rpm'
